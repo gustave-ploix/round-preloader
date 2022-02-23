@@ -1,0 +1,20 @@
+svg {
+
+    // background-color: blue;
+    border-radius: 50%;
+
+    circle {
+
+        transform-origin: center;
+
+        transition: stroke-width 0.2s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+
+        &.bigger {
+            stroke-width: 5px;
+            transform: scale(1.1);
+        }
+        &.removed {
+            opacity: 0;
+        }
+    }
+}
