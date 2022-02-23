@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import ToggleBtn from './components/ToggleBtn';
+import Svgs from './components/Svgs';
+
 
 import './styles.scss';
 
@@ -15,6 +17,7 @@ export default function App() {
                 light={light}
                 setLight={setLight}
             /> */}
+            <Svgs />
         </div>
         
         );
